@@ -1,0 +1,1270 @@
+/* [0] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.0.woff2) format('woff2');
+    unicode-range: U+25ee8, U+25f23, U+25f5c, U+25fd4, U+25fe0, U+25ffb, U+2600c, U+26017, U+26060, U+260ed, U+26222, U+2626a, U+26270, U+26286, U+2634c, U+26402, U+2667e, U+266b0, U+2671d, U+268dd, U+268ea, U+26951, U+2696f, U+26999, U+269dd, U+26a1e, U+26a58, U+26a8c, U+26ab7, U+26aff, U+26c29, U+26c73, U+26c9e, U+26cdd, U+26e40, U+26e65, U+26f94, U+26ff6-26ff8, U+270f4, U+2710d, U+27139, U+273da-273db, U+273fe, U+27410, U+27449, U+27614-27615, U+27631, U+27684, U+27693, U+2770e, U+27723, U+27752, U+278b2, U+27985, U+279b4, U+27a84, U+27bb3, U+27bbe, U+27bc7, U+27c3c, U+27cb8, U+27d73, U+27da0, U+27e10, U+27eaf, U+27fb7, U+2808a, U+280bb, U+28277, U+28282, U+282f3, U+283cd, U+2840c, U+28455, U+284dc, U+2856b, U+285c8-285c9, U+286d7, U+286fa, U+28946, U+28949, U+2896b, U+28987-28988, U+289ba-289bb, U+28a1e, U+28a29, U+28a43, U+28a71, U+28a99, U+28acd, U+28add, U+28ae4, U+28bc1, U+28bef, U+28cdd, U+28d10, U+28d71, U+28dfb, U+28e0f, U+28e17, U+28e1f, U+28e36, U+28e89, U+28eeb, U+28ef6, U+28f32, U+28ff8, U+292a0, U+292b1, U+29490, U+295cf, U+2967f, U+296f0, U+29719, U+29750, U+29810, U+298c6, U+29a72, U+29d4b, U+29ddb, U+29e15, U+29e3d, U+29e49, U+29e8a, U+29ec4, U+29edb, U+29ee9, U+29fce, U+29fd7, U+2a01a, U+2a02f, U+2a082, U+2a0f9, U+2a190, U+2a2b2, U+2a38c, U+2a437, U+2a5f1, U+2a602, U+2a61a, U+2a6b2, U+2a9e6, U+2b746, U+2b751, U+2b753, U+2b75a, U+2b75c, U+2b765, U+2b776-2b777, U+2b77c, U+2b782, U+2b789, U+2b78b, U+2b78e, U+2b794, U+2b7ac, U+2b7af, U+2b7bd, U+2b7c9, U+2b7cf, U+2b7d2, U+2b7d8, U+2b7f0, U+2b80d, U+2b817, U+2b81a, U+2d544, U+2e278, U+2e569, U+2e6ea, U+2f804, U+2f80f, U+2f815, U+2f818, U+2f81a, U+2f822, U+2f828, U+2f82c, U+2f833, U+2f83f, U+2f846, U+2f852, U+2f862, U+2f86d, U+2f873, U+2f877, U+2f884, U+2f899-2f89a, U+2f8a6, U+2f8ac, U+2f8b2, U+2f8b6, U+2f8d3, U+2f8db-2f8dc, U+2f8e1, U+2f8e5, U+2f8ea, U+2f8ed, U+2f8fc, U+2f903, U+2f90b, U+2f90f, U+2f91a, U+2f920-2f921, U+2f945, U+2f947, U+2f96c, U+2f995, U+2f9d0, U+2f9de-2f9df, U+2f9f4;
+}
+
+/* [1] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.1.woff2) format('woff2');
+    unicode-range: U+1f235-1f23b, U+1f240-1f248, U+1f250-1f251, U+2000b, U+20089-2008a, U+200a2, U+200a4, U+200b0, U+200f5, U+20158, U+201a2, U+20213, U+2032b, U+20371, U+20381, U+203f9, U+2044a, U+20509, U+2053f, U+205b1, U+205d6, U+20611, U+20628, U+206ec, U+2074f, U+207c8, U+20807, U+2083a, U+208b9, U+2090e, U+2097c, U+20984, U+2099d, U+20a64, U+20ad3, U+20b1d, U+20b9f, U+20bb7, U+20d45, U+20d58, U+20de1, U+20e64, U+20e6d, U+20e95, U+20f5f, U+21201, U+2123d, U+21255, U+21274, U+2127b, U+212d7, U+212e4, U+212fd, U+2131b, U+21336, U+21344, U+213c4, U+2146d-2146e, U+215d7, U+21647, U+216b4, U+21706, U+21742, U+218bd, U+219c3, U+21a1a, U+21c56, U+21d2d, U+21d45, U+21d62, U+21d78, U+21d92, U+21d9c, U+21da1, U+21db7, U+21de0, U+21e33-21e34, U+21f1e, U+21f76, U+21ffa, U+2217b, U+22218, U+2231e, U+223ad, U+22609, U+226f3, U+2285b, U+228ab, U+2298f, U+22ab8, U+22b46, U+22b4f-22b50, U+22ba6, U+22c1d, U+22c24, U+22de1, U+22e42, U+22feb, U+231b6, U+231c3-231c4, U+231f5, U+23372, U+233cc, U+233d0, U+233d2-233d3, U+233d5, U+233da, U+233df, U+233e4, U+233fe, U+2344a-2344b, U+23451, U+23465, U+234e4, U+2355a, U+23594, U+235c4, U+23638-2363a, U+23647, U+2370c, U+2371c, U+2373f, U+23763-23764, U+237e7, U+237f1, U+237ff, U+23824, U+2383d, U+23a98, U+23c7f, U+23cbe, U+23cfe, U+23d00, U+23d0e, U+23d40, U+23dd3, U+23df9-23dfa, U+23f7e, U+2404b, U+24096, U+24103, U+241c6, U+241fe, U+242ee, U+243bc, U+243d0, U+24629, U+246a5, U+247f1, U+24896, U+248e9, U+24a4d, U+24b56, U+24b6f, U+24c16, U+24d14, U+24e04, U+24e0e, U+24e37, U+24e6a, U+24e8b, U+24ff2, U+2504a, U+25055, U+25122, U+251a9, U+251cd, U+251e5, U+2521e, U+2524c, U+2542e, U+2548e, U+254d9, U+2550e, U+255a7, U+2567f, U+25771, U+257a9, U+257b4, U+25874, U+259c4, U+259cc, U+259d4, U+25ad7, U+25ae3-25ae4, U+25af1, U+25bb2, U+25c4b, U+25c64, U+25da1, U+25e2e, U+25e56, U+25e62, U+25e65, U+25ec2, U+25ed8;
+}
+
+/* [2] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.2.woff2) format('woff2');
+    unicode-range: U+ffd7, U+ffda-ffdc, U+ffe0-ffe2, U+ffe4, U+ffe6, U+ffe8-ffee, U+1f100-1f10c, U+1f110-1f16c, U+1f170-1f1ac, U+1f200-1f202, U+1f210-1f234;
+}
+
+/* [3] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.3.woff2) format('woff2');
+    unicode-range: U+fa10, U+fa12-fa6d, U+fb00-fb04, U+fe10-fe19, U+fe30-fe42, U+fe44-fe52, U+fe54-fe66, U+fe68-fe6b, U+ff02, U+ff04, U+ff07, U+ff51, U+ff5b, U+ff5d, U+ff5f-ff60, U+ff66, U+ff69, U+ff87, U+ffa1-ffbe, U+ffc2-ffc7, U+ffca-ffcf, U+ffd2-ffd6;
+}
+
+/* [4] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    size-adjust: 115%;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    unicode-range: U+20-7E, U+3130-318E, U+AC00-D7A3, U+4E00-9FAF;
+}
+
+/* [5] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.5.woff2) format('woff2');
+    unicode-range: U+9fb4, U+9fbc-9fc2, U+9fc4, U+9fc6, U+9fcc, U+f900-f92c;
+}
+
+/* [6] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.6.woff2) format('woff2');
+    unicode-range: U+9e87-9e88;
+}
+
+/* [7] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.7.woff2) format('woff2');
+    unicode-range: U+9c3d;
+}
+
+/* [8] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.8.woff2) format('woff2');
+    unicode-range: U+9ae2-9ae4;
+}
+
+/* [9] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.9.woff2) format('woff2');
+    unicode-range: U+98e9-98ea;
+}
+
+/* [10] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.10.woff2) format('woff2');
+    unicode-range: U+9719-971b;
+}
+
+/* [11] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.11.woff2) format('woff2');
+    unicode-range: U+9448;
+}
+
+/* [12] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.12.woff2) format('woff2');
+    unicode-range: U+92b6-92bb;
+}
+
+/* [13] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.13.woff2) format('woff2');
+    unicode-range: U+913c-913d;
+}
+
+/* [14] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.14.woff2) format('woff2');
+    unicode-range: U+8f51;
+}
+
+/* [15] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.15.woff2) format('woff2');
+    unicode-range: U+8dbe;
+}
+
+/* [16] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.16.woff2) format('woff2');
+    unicode-range: U+8b2b-8b2c;
+}
+
+/* [17] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.17.woff2) format('woff2');
+    unicode-range: U+896d-8970;
+}
+
+/* [18] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.18.woff2) format('woff2');
+    unicode-range: U+87df-87e0;
+}
+
+/* [19] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.19.woff2) format('woff2');
+    unicode-range: U+8652-8654;
+}
+
+/* [20] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.20.woff2) format('woff2');
+    unicode-range: U+84b1;
+}
+
+/* [21] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.21.woff2) format('woff2');
+    unicode-range: U+82e7;
+}
+
+/* [22] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.22.woff2) format('woff2');
+    unicode-range: U+8145-8147;
+}
+
+/* [23] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.23.woff2) format('woff2');
+    unicode-range: U+7f71;
+}
+
+/* [24] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.24.woff2) format('woff2');
+    unicode-range: U+7d55-7d56;
+}
+
+/* [25] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.25.woff2) format('woff2');
+    unicode-range: U+7bc5-7bc6;
+}
+
+/* [26] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.26.woff2) format('woff2');
+    unicode-range: U+7a15;
+}
+
+/* [27] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.27.woff2) format('woff2');
+    unicode-range: U+784e-784f;
+}
+
+/* [28] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.28.woff2) format('woff2');
+    unicode-range: U+768b;
+}
+
+/* [29] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.29.woff2) format('woff2');
+    unicode-range: U+750c-750e;
+}
+
+/* [30] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.30.woff2) format('woff2');
+    unicode-range: U+7366-736b;
+}
+
+/* [31] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.31.woff2) format('woff2');
+    unicode-range: U+7164-7165;
+}
+
+/* [32] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.32.woff2) format('woff2');
+    unicode-range: U+6f57;
+}
+
+/* [33] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.33.woff2) format('woff2');
+    unicode-range: U+6d79;
+}
+
+/* [34] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.34.woff2) format('woff2');
+    unicode-range: U+6b7d-6b84;
+}
+
+/* [35] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.35.woff2) format('woff2');
+    unicode-range: U+69d9;
+}
+
+/* [36] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.36.woff2) format('woff2');
+    unicode-range: U+6852-6854;
+}
+
+/* [37] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.37.woff2) format('woff2');
+    unicode-range: U+667b-667c;
+}
+
+/* [38] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.38.woff2) format('woff2');
+    unicode-range: U+64d0-64d1;
+}
+
+/* [39] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.39.woff2) format('woff2');
+    unicode-range: U+62ce;
+}
+
+/* [40] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.40.woff2) format('woff2');
+    unicode-range: U+6116;
+}
+
+/* [41] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.41.woff2) format('woff2');
+    unicode-range: U+5f6a;
+}
+
+/* [42] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.42.woff2) format('woff2');
+    unicode-range: U+5d99;
+}
+
+/* [43] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.43.woff2) format('woff2');
+    unicode-range: U+5bba;
+}
+
+/* [44] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.44.woff2) format('woff2');
+    unicode-range: U+5981;
+}
+
+/* [45] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.45.woff2) format('woff2');
+    unicode-range: U+57b0;
+}
+
+/* [46] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.46.woff2) format('woff2');
+    unicode-range: U+560d-5612;
+}
+
+/* [47] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.47.woff2) format('woff2');
+    unicode-range: U+543c-543d;
+}
+
+/* [48] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.48.woff2) format('woff2');
+    unicode-range: U+528c;
+}
+
+/* [49] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.49.woff2) format('woff2');
+    unicode-range: U+4f57-4f58, U+4f5a-4f5b, U+4f5d-4f5f, U+4f63-4f64, U+4f69-4f6a, U+4f6c, U+4f6e-4f71, U+4f76-4f7e, U+4f81-4f85, U+4f88-4f8a, U+4f8c, U+4f8e-4f90, U+4f92-4f94, U+4f96-4f9a, U+4f9e-4fa0, U+4fab, U+4fad, U+4faf, U+4fb2, U+4fb7, U+4fb9, U+4fbb-4fbe, U+4fc0-4fc1, U+4fc4-4fc6, U+4fc8-4fc9, U+4fcb-4fd4, U+4fd8, U+4fda-4fdc, U+4fdf-4fe0, U+4fe2, U+4fe4-4fe6, U+4fef-4ff2, U+4ff6, U+4ffc-5002, U+50dc;
+}
+
+/* [50] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.50.woff2) format('woff2');
+    unicode-range: U+4093, U+4103, U+4105, U+4148, U+414f, U+4163, U+41b4, U+41bf, U+41e6, U+41ee, U+41f3, U+4207, U+420e, U+4264, U+4293, U+42c6, U+42d6, U+42dd, U+4302, U+432b, U+4343, U+43ee, U+43f0, U+4408, U+440c, U+4417, U+441c, U+4422, U+4453, U+445b, U+4476, U+447a, U+4491, U+44b3, U+44be, U+44d4, U+4508, U+450d, U+4525, U+4543, U+457a, U+459d, U+45b8, U+45be, U+45e5, U+45ea, U+460f-4610, U+4641, U+4665, U+46a1, U+46ae-46af, U+470c, U+471f, U+4764, U+47e6, U+47fd, U+4816, U+481e, U+4844, U+484e, U+48b5, U+49b0, U+49e7, U+49fa, U+4a04, U+4a29, U+4abc, U+4b38, U+4b3b, U+4b7e, U+4bc2, U+4bca, U+4bd2, U+4be8, U+4c17, U+4c20, U+4c38, U+4cc4, U+4cd1, U+4ce1, U+4d07, U+4d77, U+4f02-4f03, U+4f08-4f09, U+4f0b-4f0d, U+4f12, U+4f15-4f17, U+4f19, U+4f1c, U+4f2b, U+4f2e, U+4f30-4f31, U+4f33, U+4f35-4f37, U+4f39, U+4f3b, U+4f3e, U+4f40, U+4f42-4f43, U+4f48-4f49, U+4f4b-4f4c, U+4f52, U+4f54, U+4f56;
+}
+
+/* [52] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.52.woff2) format('woff2');
+    unicode-range: U+32b5-332b, U+332d-3394;
+}
+
+/* [53] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.53.woff2) format('woff2');
+    unicode-range: U+31c8-31e3, U+31f0-321e, U+3220-3230, U+3232-32b4;
+}
+
+/* [54] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.54.woff2) format('woff2');
+    unicode-range: U+3028-303f, U+3094-3096, U+309f-30a0, U+30ee, U+30f7-30fa, U+30ff, U+3105-312f, U+3190-31bb, U+31c0-31c7;
+}
+
+/* [55] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.55.woff2) format('woff2');
+    unicode-range: U+2f14-2fd5, U+2ff0-2ffb, U+3004, U+3013, U+3016-301b, U+301e, U+3020-3027;
+}
+
+/* [56] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.56.woff2) format('woff2');
+    unicode-range: U+25e4-25e6, U+2601-2603, U+2609, U+260e-260f, U+2616-2617, U+261c-261f, U+262f, U+2641, U+2660, U+2662-2664, U+2666-2668, U+266d-266e, U+2672-267d, U+26bd-26be, U+2702, U+271a, U+273d, U+2740, U+2756, U+2776-2793, U+27a1, U+2934-2935, U+29bf, U+29fa-29fb, U+2b05-2b07, U+2b1a, U+2b95, U+2e3a-2e3b, U+2e80-2e99, U+2e9b-2ef3, U+2f00-2f13;
+}
+
+/* [57] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.57.woff2) format('woff2');
+    unicode-range: U+24d1-24ff, U+2503-2513, U+2515-2516, U+2518-251b, U+251d-2522, U+2524-259f, U+25a2-25ab, U+25b1, U+25b7, U+25c0-25c1, U+25c9-25ca, U+25cc, U+25d0-25d3, U+25e2-25e3;
+}
+
+/* [58] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.58.woff2) format('woff2');
+    unicode-range: U+2105, U+2109-210a, U+210f, U+2116, U+2121, U+2126-2127, U+212b, U+212e, U+2135, U+213b, U+2194-2199, U+21b8-21b9, U+21c4-21c6, U+21cb-21cc, U+21d0, U+21e6-21e9, U+21f5, U+2202-2203, U+2205-2206, U+2208-220b, U+220f, U+2211, U+2213, U+2215, U+221a, U+221d, U+2220, U+2223, U+2225-2226, U+2228, U+222a-222e, U+2234-2237, U+223d, U+2243, U+2245, U+2248, U+224c, U+2260, U+2262, U+2264-2265, U+226e-226f, U+2272-2273, U+2276-2277, U+2283-2287, U+228a-228b, U+2295-2299, U+22a0, U+22a5, U+22bf, U+22da-22db, U+22ef, U+2305-2307, U+2318, U+2329-232a, U+23b0-23b1, U+23be-23cc, U+23ce, U+23da-23db, U+2423, U+2469-24d0;
+}
+
+/* [59] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.59.woff2) format('woff2');
+    unicode-range: U+a1-a4, U+a6-a7, U+aa, U+ac-ad, U+b5-b6, U+b8-ba, U+bc-c8, U+ca-cc, U+ce-d5, U+d9-db, U+dd-df, U+e6, U+ee, U+f0, U+f5, U+f7, U+f9, U+fb, U+fe-102, U+110-113, U+11a-11b, U+128-12b, U+143-144, U+147-148, U+14c, U+14e-14f, U+152-153, U+168-16d, U+192, U+1a0-1a1, U+1af, U+1cd-1dc, U+1f8-1f9, U+251, U+261, U+2bb, U+2c7, U+2c9, U+2ea-2eb, U+304, U+307, U+30c, U+1e3e-1e3f, U+1ea0-1ebe, U+1ec0-1ec6, U+1ec8-1ef9, U+2011-2012, U+2016, U+2018-201a, U+201e, U+2021, U+2030, U+2033, U+2035, U+2042, U+2047, U+2051, U+2074, U+20a9, U+20ab-20ac, U+20dd-20de, U+2100;
+}
+
+/* [60] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.60.woff2) format('woff2');
+    unicode-range: U+2227, U+26a0, U+2713, U+301f, U+4ff8, U+ff95;
+}
+
+/* [61] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.61.woff2) format('woff2');
+    unicode-range: U+a8, U+2032, U+2261, U+2282, U+3090, U+30f1, U+339c, U+9ece;
+}
+
+/* [62] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.62.woff2) format('woff2');
+    unicode-range: U+2d9, U+21d4, U+301d, U+9913;
+}
+
+/* [63] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.63.woff2) format('woff2');
+    unicode-range: U+2ca-2cb, U+2229, U+2468, U+2669, U+266f, U+273f, U+4f60, U+4fb6, U+ff96;
+}
+
+/* [64] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.64.woff2) format('woff2');
+    unicode-range: U+2467, U+4f91, U+4fae, U+9eb9;
+}
+
+/* [65] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.65.woff2) format('woff2');
+    unicode-range: U+b1, U+309b, U+9e93;
+}
+
+/* [66] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.66.woff2) format('woff2');
+    unicode-range: U+2020, U+3003, U+3231, U+4f3d, U+4f47, U+ff4a, U+ff5a;
+}
+
+/* [67] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.67.woff2) format('woff2');
+    unicode-range: U+2466, U+2600, U+4fe3, U+4ff5, U+fa11;
+}
+
+/* [68] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.68.woff2) format('woff2');
+    unicode-range: U+251c, U+2523, U+9ac4;
+}
+
+/* [69] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.69.woff2) format('woff2');
+    unicode-range: U+2003, U+2312, U+266c, U+4f86, U+ff6b;
+}
+
+/* [70] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.70.woff2) format('woff2');
+    unicode-range: U+266b, U+3006, U+fe43, U+ff94;
+}
+
+/* [71] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.71.woff2) format('woff2');
+    unicode-range: U+af, U+2465, U+2517, U+33a1, U+4f10, U+ff46, U+ff7f, U+ff88;
+}
+
+/* [72] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.72.woff2) format('woff2');
+    unicode-range: U+ff67, U+ff82, U+ff93;
+}
+
+/* [73] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.73.woff2) format('woff2');
+    unicode-range: U+221e, U+2514, U+ff6a;
+}
+
+/* [74] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.74.woff2) format('woff2');
+    unicode-range: U+2002, U+2025, U+4f8d, U+ff79, U+ff90;
+}
+
+/* [75] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.75.woff2) format('woff2');
+    unicode-range: U+2464, U+2501, U+2640, U+2642, U+339d, U+4f0e, U+ff56, U+ff6e, U+ff7e, U+ff85;
+}
+
+/* [76] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.76.woff2) format('woff2');
+    unicode-range: U+2266-2267, U+4f2f, U+ff3f, U+ff58, U+ff68, U+ff6d, U+ff9c;
+}
+
+/* [77] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.77.woff2) format('woff2');
+    unicode-range: U+2207, U+25ef, U+309c, U+ff42, U+ff74, U+ff91;
+}
+
+/* [78] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.78.woff2) format('woff2');
+    unicode-range: U+ff44, U+ff55, U+ff6c, U+ff73, U+ff75, U+ff86, U+ff8d, U+ff92, U+ffe3;
+}
+
+/* [79] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.79.woff2) format('woff2');
+    unicode-range: U+25b3, U+30f5, U+4f46, U+4f51, U+ff8b;
+}
+
+/* [80] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.80.woff2) format('woff2');
+    unicode-range: U+2463, U+25a1, U+ff03, U+ff50, U+ff59, U+ff7b, U+ff8e-ff8f;
+}
+
+/* [81] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.81.woff2) format('woff2');
+    unicode-range: U+2010, U+2502, U+25b6, U+4f3a, U+ff3a, U+ff9a;
+}
+
+/* [82] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.82.woff2) format('woff2');
+    unicode-range: U+2103, U+ff48, U+ff4c, U+ff81;
+}
+
+/* [83] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.83.woff2) format('woff2');
+    unicode-range: U+2500, U+3008-3009, U+4f0f, U+4fca, U+ff64, U+ff7a, U+ff83;
+}
+
+/* [84] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.84.woff2) format('woff2');
+    unicode-range: U+3014-3015, U+ff47, U+ff4b, U+ff76, U+ff9b;
+}
+
+/* [85] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.85.woff2) format('woff2');
+    unicode-range: U+25c7, U+3007, U+ff4e, U+ff71, U+ff89, U+ff97;
+}
+
+/* [86] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.86.woff2) format('woff2');
+    unicode-range: U+2022, U+2212, U+221f, U+2665, U+ff52-ff54, U+ff61, U+ff77, U+ff98-ff99;
+}
+
+/* [87] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.87.woff2) format('woff2');
+    unicode-range: U+b0, U+226a, U+2462, U+4fc3, U+4fd7, U+ff3c, U+ff7c, U+ff8a;
+}
+
+/* [88] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.88.woff2) format('woff2');
+    unicode-range: U+25bd, U+4ff3, U+ff1b, U+ff31, U+ff39, U+ff80;
+}
+
+/* [89] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.89.woff2) format('woff2');
+    unicode-range: U+a5, U+4f34, U+4f73, U+4f75, U+ff41, U+ff43, U+ff45, U+ff49, U+ff4f, U+ff62-ff63;
+}
+
+/* [90] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.90.woff2) format('woff2');
+    unicode-range: U+4fb5, U+ff3e, U+ff6f, U+ff72, U+ff78, U+ff7d, U+ff84, U+ff8c;
+}
+
+/* [91] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.91.woff2) format('woff2');
+    unicode-range: U+2200, U+226b, U+2461, U+ff38;
+}
+
+/* [92] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.92.woff2) format('woff2');
+    unicode-range: U+2460, U+ff35, U+ff37, U+ff40, U+ff9d;
+}
+
+/* [93] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.93.woff2) format('woff2');
+    unicode-range: U+21d2, U+25ce, U+300a-300b, U+ff0a, U+ff4d;
+}
+
+/* [94] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.94.woff2) format('woff2');
+    unicode-range: U+2015, U+2190, U+ff70;
+}
+
+/* [95] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.95.woff2) format('woff2');
+    unicode-range: U+2193, U+25b2, U+ff1d, U+ff27, U+ff2a, U+ff36, U+ff3b, U+ff3d, U+ffe5;
+}
+
+/* [96] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.96.woff2) format('woff2');
+    unicode-range: U+4f38, U+ff26, U+ff28, U+ff9e-ff9f;
+}
+
+/* [97] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.97.woff2) format('woff2');
+    unicode-range: U+b4, U+25c6, U+2661, U+4ffa, U+ff20, U+ff22, U+ff29, U+ff2b-ff2c;
+}
+
+/* [98] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.98.woff2) format('woff2');
+    unicode-range: U+25cb, U+4f59, U+ff24, U+ff2e, U+ff57;
+}
+
+/* [99] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.99.woff2) format('woff2');
+    unicode-range: U+2191, U+ff25, U+ff2d;
+}
+
+/* [100] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.100.woff2) format('woff2');
+    unicode-range: U+4f9d, U+ff23, U+ff30;
+}
+
+/* [101] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.101.woff2) format('woff2');
+    unicode-range: U+25bc, U+3012, U+4f0a, U+ff1c, U+ff2f, U+ff32, U+ff34;
+}
+
+/* [102] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.102.woff2) format('woff2');
+    unicode-range: U+25cf, U+4f3c, U+ff05, U+ff33;
+}
+
+/* [103] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.103.woff2) format('woff2');
+    unicode-range: U+ff0b, U+ff0d, U+ff19, U+ff65;
+}
+
+/* [104] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.104.woff2) format('woff2');
+    unicode-range: U+ff17, U+ff21;
+}
+
+/* [105] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.105.woff2) format('woff2');
+    unicode-range: U+25a0, U+4f4e, U+ff18;
+}
+
+/* [106] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.106.woff2) format('woff2');
+    unicode-range: U+30f6, U+ff16;
+}
+
+/* [107] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.107.woff2) format('woff2');
+    unicode-range: U+2192, U+4f50, U+4f8b, U+4fc2, U+ff1e;
+}
+
+/* [108] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.108.woff2) format('woff2');
+    unicode-range: U+2605-2606, U+301c, U+4fee, U+9ed2;
+}
+
+/* [109] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.109.woff2) format('woff2');
+    unicode-range: U+266a, U+4f11, U+ff0f-ff10, U+ff14-ff15;
+}
+
+/* [110] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.110.woff2) format('woff2');
+    unicode-range: U+4f01, U+4f1d, U+4fbf, U+985e;
+}
+
+/* [111] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.111.woff2) format('woff2');
+    unicode-range: U+d7, U+300e-300f, U+ff13, U+ff5c;
+}
+
+/* [112] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.112.woff2) format('woff2');
+    unicode-range: U+4f4d, U+4f4f, U+4f55, U+4f9b, U+ff06;
+}
+
+/* [113] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.113.woff2) format('woff2');
+    unicode-range: U+2026, U+203b, U+4fa1, U+ff11-ff12;
+}
+
+/* [114] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.114.woff2) format('woff2');
+    unicode-range: U+3005, U+4fdd, U+4fe1, U+98df;
+}
+
+/* [115] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.115.woff2) format('woff2');
+    unicode-range: U+3080, U+ff5e;
+}
+
+/* [116] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.116.woff2) format('woff2');
+    unicode-range: U+a9, U+3010-3011, U+30e2, U+4f53, U+4f5c, U+4f7f, U+ff1a, U+ff1f;
+}
+
+/* [117] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.117.woff2) format('woff2');
+    unicode-range: U+a0, U+3000, U+300c-300d, U+4f1a, U+ff01, U+ff08-ff09;
+}
+
+/* [118] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.118.woff2) format('woff2');
+    unicode-range: U+ab, U+ae, U+b2-b3, U+b7, U+bb, U+c9, U+cd, U+d6, U+d8, U+dc, U+e0-e5, U+e7-ed, U+ef, U+f1-f4, U+f6, U+f8, U+fa, U+fc-fd, U+103, U+14d, U+1b0, U+300-301, U+1ebf, U+1ec7, U+2013-2014, U+201c-201d, U+2039-203a, U+203c, U+2048-2049, U+2113, U+2122, U+70b9;
+}
+
+/* [119] */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuPWDpq8A_4TPv30lLyDK_FIhT0K-oTdprA.119.woff2) format('woff2');
+    unicode-range: U+2027, U+3001-3002, U+3041-307f, U+3081-308f, U+3091-3093, U+3099-309a, U+309d-309e, U+30a1-30e1, U+30e3-30ed, U+30ef-30f0, U+30f2-30f4, U+30fb-30fe, U+ff0c, U+ff0e;
+}
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWMxL4y7g.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWFxL4y7g.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWNxL4y7g.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWCxL4y7g.woff2) format('woff2');
+    unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+
+/* hebrew */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWDxL4y7g.woff2) format('woff2');
+    unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWOxL4y7g.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWPxL4y7g.woff2) format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mplusrounded1c/v16/VdGEAYIAV6gnpUpoWwNkYvrugw9RuMWBxL4.woff2) format('woff2');
+    unicode-range: U+00-FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

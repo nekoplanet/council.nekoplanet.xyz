@@ -1,3 +1,5 @@
+@import "./font.css";
+
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --vt-c-white: #ffffff;
@@ -21,21 +23,34 @@
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
 }
 
+/* nekoplanet color variables */
+:root {
+  --neko-bg: #f4fbff;
+  --neko-fg: #4d6079;
+  --neko-accent: #606df7;
+  --neko-bg-deck: #b7d9f1;
+  --neko-mentionme: #ff6d6d;
+  --neko-bg-info: #f2f3f5;
+}
+
+/* TODO: switch this block to light-dark(lightmode, darkmode?) 
+(baseline 2024 [newly avaliable]: unsupported on older browsers */
 /* semantic color variables for this project */
 :root {
-  --color-background: var(--vt-c-white);
-  --color-background-soft: var(--vt-c-white-soft);
-  --color-background-mute: var(--vt-c-white-mute);
+  --color-background: var(--neko-bg);
+  --color-background-soft: var(--neko-bg-deck);
+  --color-background-mute: var(--neko-bg-info);
 
   --color-border: var(--vt-c-divider-light-2);
   --color-border-hover: var(--vt-c-divider-light-1);
 
-  --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--vt-c-text-light-1);
+  --color-heading: var(--neko-fg);
+  --color-text: var(--neko-fg);
 
   --section-gap: 160px;
 }
 
+/* TODO: dark mode color scheme override */
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--vt-c-black);
@@ -67,6 +82,7 @@ body {
     background-color 0.5s;
   line-height: 1.6;
   font-family:
+    'M PLUS Rounded 1c',
     Inter,
     -apple-system,
     BlinkMacSystemFont,

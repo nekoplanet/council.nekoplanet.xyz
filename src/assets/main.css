@@ -1,4 +1,5 @@
 @import './base.css';
+@import url(https://cdn.hugeicons.com/font/hgi-stroke-rounded.css);
 
 #app {
   max-width: 1280px;
@@ -7,19 +8,18 @@
   font-weight: normal;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+a {
+  text-decoration: underline;
+  color: var(--neko-accent);
   transition: 0.4s;
   padding: 3px;
-}
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+  &:hover {
+    text-decoration: none;
   }
 }
+
+@media (hover: hover) {}
 
 @media (min-width: 1024px) {
   body {
