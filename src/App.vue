@@ -17,6 +17,8 @@ import NekoFooter from './components/NekoFooter.vue';
     <RouterView />
   </main>
 
+  <br><br>
+  
   <footer>
     <NekoFooter />
   </footer>

@@ -4,7 +4,7 @@
     <div id="top-menu">
         <div class="logo-menu">
             <RouterLink to="/" title="고양이별 은하수 교단 본부" class="router">
-                    <img src="@/assets/logo.png">
+                <img src="@/assets/logo.png">
             </RouterLink>
         </div>
         <div class="mid-menu">
