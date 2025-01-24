@@ -3,12 +3,14 @@ import MisskeyAccountStaff from '@/components/MisskeyAccountStaff.vue';
 </script>
 <template>
     <div class="title">
-        <h1>고양이별 이용 약관</h1>
-        <div class="content">
-            해당 규칙은 2024년 12월 23일부터 효력을 가집니다.<br>
-            내부 회의를 통해 일부 내용이 변경될 수 있습니다.
+        <div class="title-inner">
+            <h1>고양이별 이용 약관</h1>
+            <div class="content">
+                해당 규칙은 2024년 12월 23일부터 효력을 가집니다.<br>
+                내부 회의를 통해 일부 내용이 변경될 수 있습니다.
+            </div>
+            <img class="nekoplanet-logo" src="@/assets/nekoplanet_official.png" />
         </div>
-        <img class="nekoplanet-logo" src="@/assets/nekoplanet_official.png" />
     </div>
 
     <div class="table-of-contents">
@@ -193,8 +195,11 @@ import MisskeyAccountStaff from '@/components/MisskeyAccountStaff.vue';
 </template>
 <style lang="css" scoped>
 .title {
+    background-color: black;
+}
+
+.title-inner {
     display: block;
-    align-items: left;
     width: 100%;
     aspect-ratio: 4;
     background-image: url('@/assets/nekocouncil_0.png');
@@ -205,12 +210,8 @@ import MisskeyAccountStaff from '@/components/MisskeyAccountStaff.vue';
     background-size: 125%;
     opacity: .75;
 
-    &::before {
-        background-color: black;
-    }
-
     & * {
-        opacity: 1.25;
+        color: white;
     }
 }
 
