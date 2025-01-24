@@ -194,34 +194,6 @@ import MisskeyAccountStaff from '@/components/MisskeyAccountStaff.vue';
     </div>
 </template>
 <style lang="css" scoped>
-.title {
-    background-color: #ccc;
-    display: block;
-    width: 100%;
-    aspect-ratio: 3.5;
-    background-image: url('@/assets/nekocouncil_0.png');
-    background-position-x: center;
-    background-position-y: 67%;
-    background-repeat: no-repeat;
-    background-clip: border-box;
-    background-size: 125%;
-    padding: 0;
-
-    &::before {
-        content: "";
-        opacity: 0.5;
-        background-color: black;
-    }
-}
-
-.title-inner {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
-
 div {
     padding-bottom: 18px;
     font-size: 1.1rem;
