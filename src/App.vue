@@ -32,8 +32,6 @@ main {
 }
 
 .main-content-top {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  width: 100vw;
 }
 </style>
