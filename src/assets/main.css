@@ -18,3 +18,27 @@ a {
     text-decoration: none;
   }
 }
+
+img.nekoplanet-logo {
+  display: block;
+  align-self: right;
+  width: 20vw;
+}
+
+body {
+  width: 100vw;
+  max-width: 1280px;
+}
+
+.title {
+  display: block;
+  align-items: left;
+  width: 100%;
+  aspect-ratio: 4;
+  background-image: url('@/assets/nekocouncil_0.png');
+  background-position-x: center;
+  background-position-y: -752px;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+  background-size: 110%;
+}
