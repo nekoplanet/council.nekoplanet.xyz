@@ -198,10 +198,10 @@ import MisskeyAccountStaff from '@/components/MisskeyAccountStaff.vue';
     background-color: #ccc;
     display: block;
     width: 100%;
-    aspect-ratio: 4;
+    aspect-ratio: 3.5;
     background-image: url('@/assets/nekocouncil_0.png');
     background-position-x: center;
-    background-position-y: -246px;
+    background-position-y: 67%;
     background-repeat: no-repeat;
     background-clip: border-box;
     background-size: 125%;
@@ -215,6 +215,7 @@ import MisskeyAccountStaff from '@/components/MisskeyAccountStaff.vue';
 
 .title-inner {
     color: white;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 div {
