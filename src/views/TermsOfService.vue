@@ -199,6 +199,10 @@ div {
     font-size: 1.1rem;
 }
 
+.title {
+    padding: 0;
+}
+
 .tos-content-wrapper>section {
     padding-top: 20px;
     padding-bottom: 15px;
