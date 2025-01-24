@@ -14,11 +14,13 @@ import NekoFooter from './components/NekoFooter.vue';
   </header>
 
   <main>
-    <RouterView />
+    <div class="main-content-top">
+      <RouterView />
+    </div>
   </main>
 
   <br><br>
-  
+
   <footer>
     <NekoFooter />
   </footer>
@@ -27,5 +29,11 @@ import NekoFooter from './components/NekoFooter.vue';
 <style scoped>
 main {
   padding-top: 2em;
+}
+
+.main-content-top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 </style>
