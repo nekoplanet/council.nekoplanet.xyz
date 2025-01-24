@@ -195,10 +195,7 @@ import MisskeyAccountStaff from '@/components/MisskeyAccountStaff.vue';
 </template>
 <style lang="css" scoped>
 .title {
-    background-color: black;
-}
-
-.title-inner {
+    background-color: #ccc;
     display: block;
     width: 100%;
     aspect-ratio: 4;
@@ -206,13 +203,18 @@ import MisskeyAccountStaff from '@/components/MisskeyAccountStaff.vue';
     background-position-x: center;
     background-position-y: -246px;
     background-repeat: no-repeat;
-    background-clip: padding-box;
+    background-clip: border-box;
     background-size: 125%;
-    opacity: .75;
 
-    & * {
-        color: white;
+    &::before {
+        content: "";
+        opacity: 0.5;
+        background-color: black;
     }
+}
+
+.title-inner {
+    color: white;
 }
 
 div {
