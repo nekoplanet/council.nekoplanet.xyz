@@ -205,6 +205,7 @@ import MisskeyAccountStaff from '@/components/MisskeyAccountStaff.vue';
     background-repeat: no-repeat;
     background-clip: border-box;
     background-size: 125%;
+    padding: 0;
 
     &::before {
         content: "";
@@ -216,6 +217,9 @@ import MisskeyAccountStaff from '@/components/MisskeyAccountStaff.vue';
 .title-inner {
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 div {
