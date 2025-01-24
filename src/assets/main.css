@@ -21,7 +21,7 @@ a {
 
 img.nekoplanet-logo {
   display: block;
-  align-self: right;
+  float: right;
   width: 20vw;
 }
 

@@ -199,10 +199,19 @@ import MisskeyAccountStaff from '@/components/MisskeyAccountStaff.vue';
     aspect-ratio: 4;
     background-image: url('@/assets/nekocouncil_0.png');
     background-position-x: center;
-    background-position-y: -752px;
+    background-position-y: -246px;
     background-repeat: no-repeat;
     background-clip: padding-box;
-    background-size: 110%;
+    background-size: 125%;
+    opacity: .75;
+
+    &::before {
+        background-color: black;
+    }
+
+    & * {
+        opacity: 1.25;
+    }
 }
 
 div {
