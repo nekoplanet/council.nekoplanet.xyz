@@ -14,9 +14,7 @@ import NekoFooter from './components/NekoFooter.vue';
   </header>
 
   <main>
-    <div class="main-content-top">
-      <RouterView />
-    </div>
+    <RouterView />
   </main>
 
   <br><br>
@@ -29,9 +27,5 @@ import NekoFooter from './components/NekoFooter.vue';
 <style scoped>
 main {
   padding-top: 2em;
-}
-
-.main-content-top {
-  width: 100vw;
 }
 </style>
