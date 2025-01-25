@@ -2,7 +2,7 @@
 import StaffAtNekoplanetXyz from '@/components/MisskeyAccountStaff.vue';
 </script>
 <template>
-    <img class="tos-title" src="@/resourcess/1abec726f0260a8e.png" alt="">
+    <img class="tos-title" src="@/assets/1abec726f0260a8e.png" alt="">
 
     <div class="table-of-contents">
         목차
