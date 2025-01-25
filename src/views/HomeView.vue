@@ -1,13 +1,14 @@
 <template>
-    <div>
-      <a href="https://nekoplanet.xyz" title="고양이별">고양이별 nekoplanet</a>
-    </div>
-    <div>
-      고양이별 은하수 교단 본부 홈페이지입니다.
-      Homepage for nekoplanet constallation court council.
-    </div>
-    
+  <div>
+    <a href="https://nekoplanet.xyz" title="고양이별">고양이별 nekoplanet</a>
+  </div>
+  <div>
+    고양이별 은하수 교단 본부 홈페이지입니다.
+    Homepage for nekoplanet constallation court council.
+  </div>
+  <div class="nekocouncil-submenu">
     <RouterLink to="/tos" class="router">이용 약관</RouterLink>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -21,5 +22,9 @@
   padding: 4px 8px;
   border-radius: 999px;
   color: var(--neko-accent);
+}
+
+.nekocouncil-submenu {
+  display: flex;
 }
 </style>

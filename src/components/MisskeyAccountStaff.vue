@@ -26,4 +26,10 @@ a.staff-account {
         border-radius: 100%;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    a.staff-account {
+        color: var(--neko-accent-darkmode);
+    }
+}
 </style>

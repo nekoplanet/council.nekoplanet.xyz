@@ -1,10 +1,12 @@
 <template>
     <div id="neko-footer">
         <div>ⓒ 2025 Nekoplanet
-        ·
-        Powered by Vue
+            ·
+            Powered by Vue
         </div>
-        <div>사이트가 이상하게 표시된다면, <MisskeyAccountStaff />에 문의해주세요.</div>
+        <div>사이트가 이상하게 표시된다면,
+            <MisskeyAccountStaff />에 문의해주세요.
+        </div>
     </div>
 </template>
 <script setup lang="ts">
@@ -25,5 +27,12 @@ import MisskeyAccountStaff from './MisskeyAccountStaff.vue';
     text-align: center;
     z-index: 10;
     background: var(--neko-bg-info);
+}
+
+@media (prefers-color-scheme: dark) {
+    #neko-footer {
+        color: var(--neko-fg-darkmode);
+        background: var(--neko-bg-info-darkmode);
+    }
 }
 </style>

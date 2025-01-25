@@ -49,8 +49,7 @@
     z-index: 99999999;
 
     & img {
-        height: 3em;
-        width: 3em;
+        width: 2.5em;
     }
 
     & div {
@@ -58,7 +57,8 @@
     }
 }
 
-.logo-item, .mid-menu {
+.logo-item,
+.mid-menu {
     height: 3em;
 }
 
@@ -93,6 +93,20 @@
 
     & .fullname {
         display: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #top-menu {
+        background: var(--neko-bg-deck-darkmode);
+    }
+
+    .menu-item:hover {
+        background: var(--neko-accent-darkmode);
+
+        & * {
+            color: var(--neko-accent);
+        }
     }
 }
 </style>

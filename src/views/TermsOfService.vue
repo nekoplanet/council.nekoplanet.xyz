@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import MisskeyAccountStaff from '@/components/MisskeyAccountStaff.vue';
+import StaffAtNekoplanetXyz from '@/components/MisskeyAccountStaff.vue';
 </script>
 <template>
     <div class="title">
@@ -90,13 +90,13 @@ import MisskeyAccountStaff from '@/components/MisskeyAccountStaff.vue';
                     </li>
                     <li>
                         로컬 이용자에 대한 조치는 관리자가
-                        <MisskeyAccountStaff />를 통해서 계정이 약관에서의 어떠한 사항으로, 어떻게 조치되었는지 전달됩니다.
+                        <StaffAtNekoplanetXyz />를 통해서 계정이 약관에서의 어떠한 사항으로, 어떻게 조치되었는지 전달됩니다.
                         이에 대해 불합리하다고 생각한다면 통지를 전달한 계정으로 충분한 자신의 의견을 표명하여 회신하시면 내부에서 충분한 회의를 거친 후 수용/반려 여부를 알려드리겠습니다.
                         리모트 유저에 대한 조치는 기본적으로 적용을 알려주지 않으며, 관련 계정에 이의를 제기하셔도 응답하지 않습니다.
                     </li>
                 </ol>
                 향후 기타 관리자가 필요한 사항이 있으면 인스턴스 내 관리자로 추정되는 계정이 아닌, 상기한
-                <MisskeyAccountStaff />로 연락하여 주시기 바랍니다.<br>
+                <StaffAtNekoplanetXyz />로 연락하여 주시기 바랍니다.<br>
                 <b>모든 유저는 가입과 동시에 규칙을 읽고 동의한 것으로 간주합니다.</b>
             </div>
         </section>
@@ -199,10 +199,6 @@ div {
     font-size: 1.1rem;
 }
 
-.title {
-    padding: 0;
-}
-
 .tos-content-wrapper>section {
     padding-top: 20px;
     padding-bottom: 15px;
@@ -219,43 +215,7 @@ div {
     padding-bottom: 4px;
 }
 
-.table-of-contents {
-    font-size: 1.2rem;
-
-    &>ol,
-    &>ul {
-        font-size: 1.15rem;
-
-        &>li>ol,
-        &>li>ul {
-            font-size: 1.12rem;
-        }
-    }
-}
-
-.callout {
-    display: block;
-    margin: 8px;
-    padding: 6px 0px 6px 12px;
-    border-left: solid 3px;
-    opacity: 0.7;
-}
-
-small {
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 0.9rem;
-}
-
-.content>br {
-    padding-top: 2.5em;
-    padding-bottom: 1.2em;
-}
-
 .tos-warn {
     color: var(--neko-mentionme);
-}
-
-b {
-    text-shadow: 0.1rem 0.1rem 0.4rem;
 }
 </style>

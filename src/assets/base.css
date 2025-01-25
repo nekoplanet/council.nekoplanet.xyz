@@ -31,6 +31,12 @@
   --neko-bg-deck: #b7d9f1;
   --neko-mentionme: #ff6d6d;
   --neko-bg-info: #f2f3f5;
+
+  --neko-bg-darkmode: #24252b;
+  --neko-fg-darkmode: #a8aed4;
+  --neko-accent-darkmode: #ffd220;
+  --neko-bg-deck-darkmode: #131314;
+  --neko-bg-info-darkmode: #253142;
 }
 
 /* TODO: switch this block to light-dark(lightmode, darkmode?) 
@@ -53,15 +59,15 @@
 /* TODO: dark mode color scheme override */
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: var(--vt-c-black);
-    --color-background-soft: var(--vt-c-black-soft);
-    --color-background-mute: var(--vt-c-black-mute);
+    --color-background: var(--neko-bg-darkmode);
+    --color-background-soft: var(--neko-bg-deck-darkmode);
+    --color-background-mute: var(--neko-bg-info-darkmode);
 
     --color-border: var(--vt-c-divider-dark-2);
     --color-border-hover: var(--vt-c-divider-dark-1);
 
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
+    --color-heading: var(--neko-fg-darkmode);
+    --color-text: var(--neko-fg-darkmode);
   }
 }
 
