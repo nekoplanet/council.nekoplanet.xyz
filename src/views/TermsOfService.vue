@@ -2,16 +2,7 @@
 import StaffAtNekoplanetXyz from '@/components/MisskeyAccountStaff.vue';
 </script>
 <template>
-    <div class="title">
-        <div class="title-inner">
-            <h1>고양이별 이용 약관</h1>
-            <div class="content">
-                해당 규칙은 2024년 12월 23일부터 효력을 가집니다.<br>
-                내부 회의를 통해 일부 내용이 변경될 수 있습니다.
-            </div>
-            <img class="nekoplanet-logo" src="@/assets/nekoplanet_official.png" />
-        </div>
-    </div>
+    <img class="tos-title" src="@/resourcess/1abec726f0260a8e.png" alt="">
 
     <div class="table-of-contents">
         목차
@@ -217,5 +208,9 @@ div {
 
 .tos-warn {
     color: var(--neko-mentionme);
+}
+
+.tos-title {
+  width: 100%;
 }
 </style>
