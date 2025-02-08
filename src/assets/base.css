@@ -106,3 +106,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+pre, code {
+  font-family: 'Monaspace Argon', monospace;
+}
