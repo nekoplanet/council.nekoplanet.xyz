@@ -51,11 +51,9 @@ main {
   flex-direction: column;
 }
 
-/*
 b {
-  text-shadow: 0.1rem 0.1rem 0.4rem;
+  font-weight: 700; /*일부 브라우저에서 자동으로 오버라이드가 안 됨*/
 }
-*/
 
 .title {
   background-color: #ccc;
