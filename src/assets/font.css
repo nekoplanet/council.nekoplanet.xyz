@@ -1,4 +1,4 @@
-
+@import "./font-var.css";
 /**region webfont:omyu_preety, Fafo Sans, M+ Rounded 1c */
 /* install custom web font */
 
@@ -10,7 +10,7 @@
 	font-weight: 400;
 	font-display: swap;
 	src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontRegular.woff2') format('woff2');
-	unicode-range: U+20-7E, U+3130-318E, U+AC00-D7A3, U+4E00-9FAF;
+	unicode-range: U+20-7E, U+3130-318E, var(--ko-ksc6501-uni), U+4E00-9FAF;
 }
 
 @font-face {
@@ -19,8 +19,9 @@
 	font-weight: 700;
 	font-display: swap;
 	src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
-	unicode-range: U+20-7E, U+3130-318E, U+AC00-D7A3, U+4E00-9FAF;
+	unicode-range: U+20-7E, U+3130-318E, var(--ko-ksc6501-uni), U+4E00-9FAF;
 }
+
 /**endregion webfont:NPS, M+ Rounded 1c */
 
 /**region webfont:monaspace, d2coding */
@@ -29,7 +30,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-variation-settings: 'wdth' 100;
-  size-adjust: 93%;
+	size-adjust: 93%;
 
 	font-display: swap;
 	src: url('https://cdn.jsdelivr.net/gh/githubnext/monaspace@1.101/fonts/webfonts/MonaspaceArgon-Regular.woff2') format('woff2');
@@ -40,14 +41,15 @@
 	font-style: normal;
 	font-weight: 700;
 	font-variation-settings: 'wdth' 100;
-  size-adjust: 93%;
+	size-adjust: 93%;
 
 	font-display: swap;
 	src: url('https://cdn.jsdelivr.net/gh/githubnext/monaspace@1.101/fonts/webfonts/MonaspaceArgon-Bold.woff2') format('woff2');
 }
 
 @font-face {
-	font-family: 'Monaspace Argon'; /*D2Coding*/
+	font-family: 'Monaspace Argon';
+	/*D2Coding*/
 	font-style: normal;
 	font-weight: 400;
 	size-adjust: 115%;
@@ -58,7 +60,8 @@
 }
 
 @font-face {
-	font-family: 'Monaspace Argon'; /*D2Coding*/
+	font-family: 'Monaspace Argon';
+	/*D2Coding*/
 	font-style: normal;
 	font-weight: 700;
 	size-adjust: 115%;
@@ -69,26 +72,29 @@
 }
 
 @font-face {
-	font-family: 'Monaspace Argon'; /*UD 디지털교과서*/
+	font-family: 'Monaspace Argon';
+	/*UD 디지털교과서*/
 	font-style: normal;
 	font-weight: 400;
 	size-adjust: 112%;
-	
+
 	font-display: swap;
 	src: url('https://cdn.jsdelivr.net/gh/Bluemoondragon07/UD-Digi-Kyokasho-Font@main/UDDigiKyokashoN-R-01.ttf');
 	unicode-range: U+3040-30FF, U+2E80-2EFF, U+3400-4DBF, U+4E00-9FBF, U+F900-FAFF, U+20000-2A6DF, U+2F800-2FA1F;
 }
 
 @font-face {
-	font-family: 'Monaspace Argon'; /*UD 디지털교과서*/
+	font-family: 'Monaspace Argon';
+	/*UD 디지털교과서*/
 	font-style: normal;
 	font-weight: 700;
 	size-adjust: 112%;
-	
+
 	font-display: swap;
 	src: url('https://cdn.jsdelivr.net/gh/Bluemoondragon07/UD-Digi-Kyokasho-Font@main/UDDigiKyokashoN-B-01.ttf');
 	unicode-range: U+3040-30FF, U+2E80-2EFF, U+3400-4DBF, U+4E00-9FBF, U+F900-FAFF, U+20000-2A6DF, U+2F800-2FA1F;
 }
+
 /**endregion webfont:monaspace, d2coding */
 
 /**region fallback */
